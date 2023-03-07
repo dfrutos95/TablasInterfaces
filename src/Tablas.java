@@ -40,8 +40,8 @@ public class Tablas extends AbstractTableModel{
 	            Graphics2D g2d = (Graphics2D) grphcs;
 	            g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 	                    RenderingHints.VALUE_ANTIALIAS_ON);
-	            GradientPaint gp = new GradientPaint(0, 100,
-	                    Color.decode("#80D0C7"), 1000, getHeight(),
+	            GradientPaint gp = new GradientPaint(0, 10,
+	                    Color.decode("#80D0C7"), 100, getHeight(),
 	                    Color.decode("#0093E9"), true);
 	            g2d.setPaint(gp);
 	            g2d.fillRect(0, 0, getWidth(), getHeight()); 
